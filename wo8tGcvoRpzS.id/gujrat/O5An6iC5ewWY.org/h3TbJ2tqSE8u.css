@@ -1,0 +1,131 @@
+/* Version 2.4 */
+
+.osano-cm-dialog {
+	background-color: #e6e7e7 !important;
+	color: #000 !important;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
+	font-size: 15px !important;
+	padding: 1.45em 2em;
+}
+
+.osano-cm-dialog p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
+	font-size: 15px !important;
+}
+
+.osano-cm-info {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
+	font-size: 15px !important;
+}
+
+.osano-cm-description {
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	line-height: 24px !important;
+}
+
+.osano-cm-info-dialog-header {
+	font-size: 19px !important;
+	font-weight: 400 !important;
+	color: #000 !important;
+}
+
+body .osano-cm-drawer-toggle .osano-cm-label {
+	font-size: 17px !important;
+	font-weight: 400 !important;
+	color: #000 !important;
+}
+
+@media screen and (min-width: 768px) {
+	.osano-cm-content {
+		padding-right: 40px;
+	}
+}
+
+.osano-cm-view__button.osano-cm-button,
+.osano-cm-accept.osano-cm-button--type_accept,
+.osano-cm-deny.osano-cm-button--type_deny {
+	background-color: #00629b !important;
+	border: 1px solid #00629b;
+	border-radius: 25px;
+	color: #FFF !important;
+	font-size: 15px !important;
+	font-weight: 700 !important;
+	padding: 11px 12px;
+}
+.osano-cm-view__button.osano-cm-button:hover,
+.osano-cm-view__button.osano-cm-button:active,
+.osano-cm-accept.osano-cm-button--type_accept:hover,
+.osano-cm-accept.osano-cm-button--type_accept:active,
+.osano-cm-deny.osano-cm-button--type_deny:hover,
+.osano-cm-deby.osano-cm-button--type_deny:active {
+	background-color: #FFF !important;
+	color: #00629b !important;
+}
+
+.osano-cm-buttons button.osano-cm-manage {
+	background-color: #00629b;
+	border: 1px solid #00629b;
+	border-radius: 25px;
+	color: #FFF !important;
+	font-size: 15px !important;
+	font-weight: 700 !important;
+	margin-top: .45em !important;
+	margin-bottom: .45em !important;
+	padding: 11px 12px;
+}
+.osano-cm-buttons button:hover,
+.osano-cm-buttons button:active {
+	background-color: #FFF;
+	color: #00629b !important;
+}
+
+.osano-cm-link {
+	color: #00629b !important;
+}
+.osano-cm-link:hover {
+	color: #002855 !important;
+}
+
+.osano-cm-close {
+	display: flex;
+	color: #00629b !important;
+	stroke: #00629b;
+}
+.osano-cm-close:hover,
+.osano-cm-close:focus {
+	background-color: #FFF !important;
+	border-color: #FFF;
+	color: #00629b !important;
+	stroke: #00629b;
+	outline: none !important;	
+}
+
+.osano-cm-dialog__close:focus:hover {
+	stroke: #002855;
+}
+.osano-cm-info-dialog-header__close:focus:hover {
+	stroke: #002855;
+}
+
+.osano-cm-disclosure__toggle {
+	color: #000 !important;
+	font-weight: 400 !important;
+}
+
+.osano-cm-disclosure__toggle:hover,
+.osano-cm-disclosure__toggle:focus {
+	color: #000 !important;
+}
+
+.osano-cm-view p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	line-height: 25px !important;
+	margin-bottom: 15px !important;
+}
+
+.osano-cm-powered-by {
+	display: none;
+}

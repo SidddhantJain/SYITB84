@@ -1,0 +1,103 @@
+/*
+ * Wordpress widget output will be surrounded by a DIV with class 'widget' and
+ * class 'widget_<lowercased name of widget PHP class>'. The vTools WIB feeds
+ * plugin provides two widget classes: WIBOfficerFeedWidget, and
+ * WIBOtherUnitsFeedWidget. This stylesheet provide style information for
+ * elements in these widget DIVs.
+ */
+
+.widget_wibofficerfeedwidget div.feed_units, .widget_wibotherunitsfeedwidget div.feed_units {
+    font-family: Times, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1em;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 5px;
+    #border: thin solid yellow;
+}
+
+.widget_wibofficerfeedwidget div.feed_unit_divider, .widget_wibotherunitsfeedwidget div.feed_unit_divider {
+    padding: 0px;
+    border-bottom: thin solid black;
+    margin: 1em 0 1em 0;
+    #border: thin solid blue;
+}
+
+.widget_wibofficerfeedwidget div.feed_unit, .widget_wibotherunitsfeedwidget div.feed_unit {
+    padding: 0 0 0 .5em;
+    margin: 0px;
+    #border: thin solid orange;
+}
+
+.widget_wibofficerfeedwidget span.feed_unit_prop, .widget_wibotherunitsfeedwidget span.feed_unit_prop {
+    line-height: 1em;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    #border: thin solid green;
+}
+
+.widget_wibofficerfeedwidget span.feed_unit_prop:first-child, .widget_wibotherunitsfeedwidget span.feed_unit_prop:first-child {
+    text-indent: -.5em;
+}
+
+.widget_wibofficerfeedwidget span.feed_unit_prop_label, .widget_wibotherunitsfeedwidget span.feed_unit_prop_label {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.widget_wibofficerfeedwidget span.feed_unit_ident_label, .widget_wibotherunitsfeedwidget span.feed_unit_ident_label {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.widget_wibofficerfeedwidget div.feed_unit_officer_divider, .widget_wibotherunitsfeedwidget div.feed_unit_officer_divider {
+    padding: 0px;
+    margin: .5em 0 .5em 0;
+    #border: thin solid blue;
+}
+
+.widget_wibofficerfeedwidget span.feed_unit_officer_prop, .widget_wibotherunitsfeedwidget span.feed_unit_officer_prop {
+    line-height: 1em;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    #border: thin solid red;
+}
+
+.widget_wibofficerfeedwidget span.feed_unit_officer_prop_label, .widget_wibotherunitsfeedwidget span.feed_unit_officer_prop_label {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.widget_wibofficerfeedwidget span.feed_unit_officer_ident_label, .widget_wibotherunitsfeedwidget span.feed_unit_officer_ident_label {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.2em;
+    padding: 0px;
+    margin: 0px;
+}
+
+span.form-subtext {
+    font-family: Times, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+}
